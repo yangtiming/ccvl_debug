@@ -1,7 +1,7 @@
 #!/bin/bash -l
 #
 #SBATCH --job-name=dino
-#SBATCH --gpus=8
+#SBATCH --gpus=1
 #SBATCH --nodes=1
 #SBATCH --partition=main
 #SBATCH --cpus-per-task=32
