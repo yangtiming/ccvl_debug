@@ -192,12 +192,11 @@ def main():
     with open(args.input, 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
-        # 如果启用了过滤，只保留desirable的视频
-            if args.filter_desirable:
-                # desirable_filtering字段可能包含多个值，检查是否包含'desirable'
-                if 'desirable' not in row.get('desirable_filtering', ''):
-                    print("wrong way")
-                    continue
+            # # 如果启用了过滤，只保留desirable的视频
+            # if args.filter_desirable:
+            #     # desirable_filtering字段可能包含多个值，检查是否包含'desirable'
+            #     if 'desirable' not in row.get('desirable_filtering', ''):
+            #         continue
             
             videos.append({
                 'video_id': row['videoID'],
