@@ -24,7 +24,7 @@ for i in {1..10}; do
         --delay-min 1 \
         --delay-max 2 \
         --quality 360 \
-        --use-ip-pool
+        --proxy "socks5://yangxiu49368627393:t9BdXRJEAD@216.180.245.3:50101"
     
     # 检查命令执行状态
     if [ $? -eq 0 ]; then
