@@ -196,6 +196,7 @@ def main():
             if args.filter_desirable:
                 # desirable_filtering字段可能包含多个值，检查是否包含'desirable'
                 if 'desirable' not in row.get('desirable_filtering', ''):
+                    print("wrong way")
                     continue
             
             videos.append({
