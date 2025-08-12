@@ -4,7 +4,7 @@
 source /datasets/fwang60/_TEXT2VIDEO/Panda-70M/dataset_dataloading/video2dataset/envs/panda-70m/bin/activate
 
 # Set base paths
-BASE_DIR="."
+BASE_DIR="/datasets/fwang60/_TEXT2VIDEO/YOUTUBE_DOWNLOADER_Panda-70M"
 INPUT_DIR="${BASE_DIR}/Panda-70M/metafiles/panda70m_training_2m_split"
 OUTPUT_BASE="${BASE_DIR}/Output_panda70m_training_2m/Output_panda70m_training_2m_split"
 
